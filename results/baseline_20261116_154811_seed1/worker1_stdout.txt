@@ -1,0 +1,13 @@
+[worker] connecting to 127.0.0.1:9999
+[worker 1] joined hub 127.0.0.1:9999 (heartbeat 500 ms, task timeout 200 ms)
+Traceback (most recent call last):
+  File "C:\ASU\Fall_2026\Networking\NETWORKING_project\RJDAP-Distributed-Computing\src\worker.py", line 395, in <module>
+    sys.exit(Worker(parse_args()).run())
+             ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\ASU\Fall_2026\Networking\NETWORKING_project\RJDAP-Distributed-Computing\src\worker.py", line 348, in run
+    self.recv_one(0.005)
+    ~~~~~~~~~~~~~^^^^^^^
+  File "C:\ASU\Fall_2026\Networking\NETWORKING_project\RJDAP-Distributed-Computing\src\worker.py", line 166, in recv_one
+    data, addr = self.sock.recvfrom(2048)
+                 ~~~~~~~~~~~~~~~~~~^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

@@ -1,0 +1,18 @@
+
+============================================================
+BASELINE (LAN) RESULT
+============================================================
+total_completion_time : 0.014 s
+reassigned_task_count : 0
+duplicate_results_dropped : 0
+worker 1 worker_idle_time_ms : 0.5
+worker 2 worker_idle_time_ms : 0.7
+worker 3 worker_idle_time_ms : 0.8
+worker 4 worker_idle_time_ms : 0.8
+------------------------------------------------------------
+[PASS] all 20 tasks completed (20/20)
+[PASS] zero reassignments (reassigned_task_count = 0)
+[PASS] zero duplicate results (duplicate_results_dropped = 0)
+[PASS] run finished without timeout
+------------------------------------------------------------
+OVERALL: PASS

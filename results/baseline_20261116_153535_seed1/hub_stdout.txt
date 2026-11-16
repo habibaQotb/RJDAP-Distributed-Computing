@@ -1,0 +1,14 @@
+[hub] listening on 0.0.0.0:9999, 1000 tasks, waiting for 4 worker(s)
+[hub] worker 1 joined from 127.0.0.1:53037
+[hub] worker 2 joined from 127.0.0.1:53038
+[hub] worker 3 joined from 127.0.0.1:53039
+[hub] worker 4 joined from 127.0.0.1:53040
+[hub] tasks done: 1000/1000
+[hub] total_completion_time: 0.712 s
+[hub] reassigned_task_count: 0
+[hub] duplicate_results_dropped: 0
+[hub] worker 1 worker_idle_time_ms: 23.9
+[hub] worker 2 worker_idle_time_ms: 25.1
+[hub] worker 3 worker_idle_time_ms: 25.3
+[hub] worker 4 worker_idle_time_ms: 26.1
+[hub] nonce results: [(226, 1127128)] (secret was 1127128)
