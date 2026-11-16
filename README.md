@@ -9,7 +9,7 @@ Team: Habiba Ahmed Kotb, Amira Botros Enaam, Mennatallah Emad, Salma Ahmed Belal
 
 ## Demo video (5 minutes)
 
-VIDEO LINK: <PASTE YOUR LINK HERE>   (access: "anyone with the link can view")
+VIDEO LINK: <[Demo](https://drive.google.com/drive/folders/1mptqEfS5vXsxsQHj60Fv0XyZp0xqoU8o)>
 
 ## Repository layout
 
