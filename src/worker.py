@@ -164,7 +164,7 @@ class Worker:
         self.sock.settimeout(timeout)
         try:
             data, addr = self.sock.recvfrom(2048)
-        except (socket.timeout, BlockingIOError):
+        except (socket.timeout, BlockingIOError, ConnectionResetError):
             return False
         if addr[0] != self.server[0] or addr[1] != self.server[1]:
             return True                                    # not from the hub: ignore

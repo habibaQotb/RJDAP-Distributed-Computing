@@ -21,7 +21,7 @@ Conventions the worker must share with the hub (not fixed by the draft):
   * range  = [range_start, range_end)                (end exclusive)
 
 Standard library only.
-    python3 rjdap_server.py --port 9999 --tasks 1000 --min-workers 4 --seed 1
+    python3 rjdap_hub.py --port 9999 --tasks 1000 --min-workers 4 --seed 1
 """
 
 import argparse
@@ -344,7 +344,7 @@ class Hub:
             while self.done_count < len(self.tasks):
                 try:
                     data, addr = self.sock.recvfrom(2048)
-                except socket.timeout:
+                except (socket.timeout, ConnectionResetError):
                     data = None
                 now = time.monotonic()
                 if data is not None:
